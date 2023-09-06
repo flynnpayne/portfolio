@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
+:root {
+    --primary-color: white;
+    --secondary-color: #eeeeee;
+    --highlight-color: #87ceeb;
+    --text-color: #333;
+    --dark-primary-color: #002626;
+    --dark-secondary-color: #002929;
+    --dark-highlight-color: #FF331F;
+    --dark-text-color: white;
+  }
+
+html {
+    background-color: var(--primary-color);
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: var(--dark-primary-color);
+    }
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.active-modal {
+    overflow: hidden;
+}
