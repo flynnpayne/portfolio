@@ -30,7 +30,7 @@ const Projects = () => {
     }
 
     return (
-        <div name='projects' className='w-full px-4 sm:px-8 md:h-screen bg-primary-color text-text-color dark:bg-dark-primary-color dark:text-dark-text-color'>
+        <div name='projects' className='w-full px-4 h-screen sm:px-8 bg-primary-color text-text-color dark:bg-dark-primary-color dark:text-dark-text-color'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full'>
                     <div className='sm:text-center pb-8 px-4'>
