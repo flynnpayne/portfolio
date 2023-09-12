@@ -41,16 +41,16 @@ const Projects = () => {
                     <div className='md:flex'>
                         <div className='w-full grid sm:grid-cols-3 gap-4 text-center'>
 
-                            <div className='py-4 rounded-lg bg-secondary-color dark:bg-dark-secondary-color flex flex-col items-center shadow-lg shadow-black sm:hover:scale-110 duration-300'>
+                            <div className='py-4 rounded-lg bg-secondary-color dark:bg-dark-secondary-color flex flex-col items-center shadow-lg sm:hover:scale-110 duration-300'>
                                 <h1 className='my-4'>{modal.modalTitleOne}</h1>
                                 <button onClick={toggleModal1} className='group border-2 rounded-md px-3 py-2 mb-4 flex items-center hover:bg-highlight-color hover:border-highlight-color dark:hover:bg-dark-highlight-color dark:hover:border-dark-highlight-color'>Learn More <HiArrowNarrowRight className='ml-3'/></button>
                             </div>
 
-                            <div className='pt-4 rounded-lg bg-secondary-color dark:bg-dark-secondary-color flex flex-col items-center shadow-lg shadow-black sm:hover:scale-110 duration-300'>
+                            <div className='pt-4 rounded-lg bg-secondary-color dark:bg-dark-secondary-color flex flex-col items-center shadow-lg sm:hover:scale-110 duration-300'>
                                 <h1 className='my-4'>{modal.modalTitleTwo}</h1>
                                 <button onClick={toggleModal2} className='group border-2 rounded-md px-3 py-2 mb-4 flex items-center hover:bg-highlight-color hover:border-highlight-color dark:hover:bg-dark-highlight-color dark:hover:border-dark-highlight-color'>Learn More <HiArrowNarrowRight className='ml-3'/></button>
                             </div>
-                            <div className='pt-4 rounded-lg bg-secondary-color dark:bg-dark-secondary-color flex flex-col items-center shadow-lg shadow-black sm:hover:scale-110 duration-300'>
+                            <div className='pt-4 rounded-lg bg-secondary-color dark:bg-dark-secondary-color flex flex-col items-center shadow-lg sm:hover:scale-110 duration-300'>
                                 <h1 className='my-4'>{modal.modalTitleThree}</h1>
                                 <button onClick={toggleModal3} className='group border-2 rounded-md px-3 py-2 mb-4 flex items-center hover:bg-highlight-color hover:border-highlight-color dark:hover:bg-dark-highlight-color dark:hover:border-dark-highlight-color'>Learn More <HiArrowNarrowRight className='ml-3'/></button>
                             </div>
