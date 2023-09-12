@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaInstagram, FaLinkedin} from 'react-icons/fa'
-import Logo from '../assets/logo1.png'
+import Logo from '../assets/logo.png'
 import config from '../index.json'
 
 const Navbar = () => {
@@ -19,7 +19,12 @@ const Navbar = () => {
     return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-primary-color text-text-color dark:bg-dark-primary-color dark:text-dark-text-color'>
         <div>
-            <img src={Logo} alt="Logo" style={{width: '50px'}}/>
+            <svg className='h-[50px] w-[50px]' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+                <defs><style></style></defs>
+                <rect className="stroke-0 fill-highlight-color dark:fill-dark-highlight-color" x="235" width="30" height="500"/>
+                <path className="stroke-0 fill-highlight-color dark:fill-dark-highlight-color" d="m211.66,149.11h-100v88.57h92.5v26.96h-92.5v113.39h-30V121.96h130v27.14Z"/>
+                <path className="stroke-0 fill-highlight-color dark:fill-dark-highlight-color" d="m324.35,281.66v98.04h-29.69V120.3h69.63c27.1,0,48.1,6.76,63.01,20.26,14.9,13.51,22.36,32.56,22.36,57.16s-8.28,44.74-24.83,60.42c-16.55,15.68-38.91,23.52-67.07,23.52h-33.4Zm0-133.86v106.36h31.11c20.5,0,36.14-4.79,46.92-14.38,10.78-9.59,16.17-23.12,16.17-40.61,0-34.25-19.79-51.37-59.39-51.37h-34.82Z"/>
+            </svg>
         </div>
 
         {/* Menu */}
