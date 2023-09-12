@@ -9,31 +9,5 @@
         "linkedin": "https://www.linkedin.com/in/flynn-payne",
         "github": "https://www.github.com/flynnpayne",
         "instagram": "https://www.instagram.com/flynnpeepee"
-    },
-
-    "about": {
-        "title": "About",
-        "tagline": "Hello. I'm Flynn.",
-        "description": "I am passionate about building excellent websites that improve the lives of those around me. I specialize in designing and building websites for clients ranging from individuals and small-businesses."
-    },
-
-    "skills": {
-        "title": "Skills",
-        "tagline": "These are some of the skills I have picked up"
-    },
-
-    "projects": {
-        "title": "Projects",
-        "tagline": "Some recent projects I have worked on"
-    },
-
-    "modal": {
-        "modalTitleOne": "NZ Stringed Instruments",
-        "modalTitleTwo": "Exmouth View Hotel",
-        "modalTitleThree": "Ye Olde Bookshoppe",
-
-        "modalDescriptionOne": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, esse aliquid dolores in adipisci neque id dolorum sequi temporibus ducimus commodi quia ut ipsam sed, perferendis error porro quibusdam explicabo.",
-        "modalDescriptionTwo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, esse aliquid dolores in adipisci neque id dolorum sequi temporibus ducimus commodi quia ut ipsam sed, perferendis error porro quibusdam explicabo.",
-        "modalDescriptionThree": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, esse aliquid dolores in adipisci neque id dolorum sequi temporibus ducimus commodi quia ut ipsam sed, perferendis error porro quibusdam explicabo."
     }
 }
