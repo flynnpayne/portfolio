@@ -62,7 +62,7 @@ const Projects = () => {
             {modal1 && (
                 <div className='w-full h-screen top-0 left-0 right-0 bottom-0 fixed flex justify-center items-center'>
                     <div onClick={toggleModal1} className='w-full h-screen top-0 left-0 right-0 bottom-0 bg-gray-700/80 fixed'></div>
-                    <div className='absolute max-w-[600px] min-w-[300px] bg-primary-color dark:bg-dark-primary-color p-5 sm:rounded-3xl'>
+                    <div className='absolute max-w-[600px] min-w-[300px] bg-primary-color dark:bg-dark-primary-color p-5 sm:rounded-xl'>
                         <h1 className='text-4xl'>{modal.modalTitleOne}</h1>
                         <p className='py-4'>{modal.modalDescriptionOne}</p>
                         <p className='font-bold'>Skills Used:</p>
@@ -77,7 +77,7 @@ const Projects = () => {
             {modal2 && (
                 <div className='w-full h-screen top-0 left-0 right-0 bottom-0 fixed flex justify-center items-center'>
                     <div onClick={toggleModal2} className='w-full h-screen top-0 left-0 right-0 bottom-0 bg-gray-700/80 fixed'></div>
-                    <div className='absolute max-w-[600px] min-w-[300px] bg-primary-color dark:bg-dark-primary-color p-5 sm:rounded-3xl'>
+                    <div className='absolute max-w-[600px] min-w-[300px] bg-primary-color dark:bg-dark-primary-color p-5 sm:rounded-xl'>
                         <h1 className='text-4xl'>{modal.modalTitleTwo}</h1>
                         <p className='py-4'>{modal.modalDescriptionTwo}</p>
                         <p className='font-bold'>Skills Used:</p>
@@ -92,7 +92,7 @@ const Projects = () => {
             {modal3 && (
                 <div className='w-full h-screen top-0 left-0 right-0 bottom-0 fixed flex justify-center items-center'>
                     <div onClick={toggleModal3} className='w-full h-screen top-0 left-0 right-0 bottom-0 bg-gray-700/80 fixed'></div>
-                    <div className='absolute max-w-[600px] min-w-[300px] bg-primary-color dark:bg-dark-primary-color p-5 sm:rounded-3xl'>
+                    <div className='absolute max-w-[600px] min-w-[300px] bg-primary-color dark:bg-dark-primary-color p-5 sm:rounded-xl'>
                         <h1 className='text-4xl'>{modal.modalTitleThree}</h1>
                         <p className='py-4'>{modal.modalDescriptionThree}</p>
                         <p className='font-bold'>Skills Used:</p>
