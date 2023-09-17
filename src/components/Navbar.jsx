@@ -27,11 +27,11 @@ const Navbar = () => {
 
         {/* Menu */}
         <ul className='hidden md:flex'>
-            <li className='hover:text-highlight-color dark:hover:text-dark-highlight-color'>Home</li>
-            <li className='hover:text-highlight-color dark:hover:text-dark-highlight-color'>About</li>
-            <li className='hover:text-highlight-color dark:hover:text-dark-highlight-color'>Skills</li>
-            <li className='hover:text-highlight-color dark:hover:text-dark-highlight-color'>Projects</li>
-            <li className='hover:text-highlight-color dark:hover:text-dark-highlight-color'>Contact</li>
+            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Home</li>
+            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>About</li>
+            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Skills</li>
+            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Projects</li>
+            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Contact</li>
         </ul>
 
         {/* Hamburger */}
