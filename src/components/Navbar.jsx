@@ -18,12 +18,8 @@ const Navbar = () => {
 
     return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-primary-color text-text-color dark:bg-dark-primary-color dark:text-dark-text-color shadow-lg'>
-        <div>
-            <svg className='h-[50px] w-[50px]' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-                <rect className="stroke-0 fill-highlight-color dark:fill-dark-highlight-color" x="235" width="30" height="500"/>
-                <path className="stroke-0 fill-highlight-color dark:fill-dark-highlight-color" d="m211.66,149.11h-100v88.57h92.5v26.96h-92.5v113.39h-30V121.96h130v27.14Z"/>
-                <path className="stroke-0 fill-highlight-color dark:fill-dark-highlight-color" d="m324.35,281.66v98.04h-29.69V120.3h69.63c27.1,0,48.1,6.76,63.01,20.26,14.9,13.51,22.36,32.56,22.36,57.16s-8.28,44.74-24.83,60.42c-16.55,15.68-38.91,23.52-67.07,23.52h-33.4Zm0-133.86v106.36h31.11c20.5,0,36.14-4.79,46.92-14.38,10.78-9.59,16.17-23.12,16.17-40.61,0-34.25-19.79-51.37-59.39-51.37h-34.82Z"/>
-            </svg>
+        <div className='max-w-[75px]'>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" width="75" height="75"><text id="logo2-s-text1" dx="0" dy="0" font-family="&quot;Roboto&quot;" font-size="200" font-weight="400" letter-spacing="10" transform="matrix(1.784228 0 0 1.784228 165.096682 424.895973)" stroke-width="0"><tspan id="logo2-s-tspan1" y="0" font-weight="400" className='fill-highlight-color dark:fill-dark-highlight-color' stroke-width="0">FP</tspan></text><path id="logo2-u-ellipse" d="M125.605103,121.854019C93.800544,154.631435,49.278938,175,0,175c-96.649831,0-175-78.350169-175-175s78.350169-175,175-175c45.326165,0,86.627581,17.232,117.710403,45.502156" transform="matrix(1.356195 0 0 1.356195 251.043219 300)" className='stroke-highlight-color dark:stroke-dark-highlight-color' fill-opacity="0" stroke-width="15" stroke-linecap="round"/></svg>
         </div>
 
         {/* Menu */}
