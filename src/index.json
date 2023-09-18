@@ -9,5 +9,25 @@
         "linkedin": "https://www.linkedin.com/in/flynn-payne",
         "github": "https://www.github.com/flynnpayne",
         "instagram": "https://www.instagram.com/flynnpeepee"
+    },
+
+    "about": {
+        "title": "About",
+        "tagline": "All about me"
+    },
+
+    "skills": {
+        "title": "Skills",
+        "tagline": "Skills I have picked up"
+    },
+
+    "projects": {
+        "title": "Projects",
+        "tagline": "Some recent projects I have done"
+    },
+
+    "contact": {
+        "title": "Contact",
+        "tagline": "Lets get in touch"
     }
 }

@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaInstagram, FaLinkedin} from 'react-icons/fa'
 import config from '../index.json'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
 
@@ -27,11 +28,11 @@ const Navbar = () => {
 
         {/* Menu */}
         <ul className='hidden md:flex'>
-            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Home</li>
-            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>About</li>
-            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Skills</li>
-            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Projects</li>
-            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Contact</li>
+            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'><Link to="home" smooth={true} duration={500}>Home</Link></li>
+            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'><Link to="about" smooth={true} duration={500}>About</Link></li>
+            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
+            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
+            <li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
         </ul>
 
         {/* Hamburger */}
@@ -41,11 +42,11 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-primary-color dark:bg-dark-primary-color flex flex-col justify-center items-center'}>
-            <li className='py-6 text-4xl'>Home</li>
-            <li className='py-6 text-4xl'>About</li>
-            <li className='py-6 text-4xl'>Skills</li>
-            <li className='py-6 text-4xl'>Projects</li>
-            <li className='py-6 text-4xl'>Contact</li>
+            <li className='py-6 text-4xl'><Link onClick={handleClick} to="home" smooth={true} duration={500}>Home</Link></li>
+            <li className='py-6 text-4xl'><Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link></li>
+            <li className='py-6 text-4xl'><Link onClick={handleClick} to="home" smooth={true} duration={500}>Skills</Link></li>
+            <li className='py-6 text-4xl'><Link onClick={handleClick} to="home" smooth={true} duration={500}>Projects</Link></li>
+            <li className='py-6 text-4xl'><Link onClick={handleClick} to="home" smooth={true} duration={500}>Contact</Link></li>
         </ul>
 
         {/* Social Icons */}
@@ -56,6 +57,12 @@ const Navbar = () => {
                 <li className='w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-br-md'><a className='flex justify-between items-center w-full text-white' target='_blank' rel="noreferrer" href={social.instagram}>Instagram <FaInstagram size={30}/></a></li>
             </ul>
         </div>
+
+        {/* <div className='flex fixed flex-col top-[90%] right-0'>
+            <ul>
+                <li><Link to="home" smooth={true} duration={500}>Back to top</Link></li>
+            </ul>
+        </div> */}
     </div>
     )
 }
