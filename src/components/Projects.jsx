@@ -9,7 +9,6 @@ const Projects = () => {
                 <div className='mb-4'>
                     <h1 className='text-4xl inline font-bold border-b-4 border-highlight-color dark:border-dark-highlight-color'>{projects.title}</h1>
                 </div>
-                <h2 className='text-3xl sm:text-3xl font-bold'>{projects.tagline}</h2>
             </div>
         </div>
     )

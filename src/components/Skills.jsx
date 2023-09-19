@@ -9,7 +9,6 @@ const Skills = () => {
                 <div className='mb-4'>
                     <h1 className='text-4xl inline font-bold border-b-4 border-highlight-color dark:border-dark-highlight-color'>{skills.title}</h1>
                 </div>
-                <h2 className='text-3xl sm:text-3xl font-bold'>{skills.tagline}</h2>
             </div>
         </div>
     )
