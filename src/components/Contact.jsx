@@ -11,9 +11,9 @@ const Contact = () => {
                 <div className='mb-4'>
                     <h1 className='text-4xl inline font-bold border-b-4 border-highlight-color dark:border-dark-highlight-color'>{contact.title}</h1>
                     <ul className='mt-8 flex flex-row'>
-                        <li className='px-0'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color' target='_blank' rel="noreferrer" href={social.linkedin}><FaLinkedin size={30}/></a></li>
-                        <li className='px-4'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color' target='_blank' rel="noreferrer" href={social.github}><FaGithub size={30}/></a></li>
-                        <li className='px-0'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color' target='_blank' rel="noreferrer" href={social.instagram}><FaInstagram size={30}/></a></li>
+                        <li className='px-0'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color hover:text-highlight-color dark:hover:text-dark-highlight-color' target='_blank' rel="noreferrer" href={social.linkedin}><FaLinkedin size={30}/></a></li>
+                        <li className='px-4'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color hover:text-highlight-color dark:hover:text-dark-highlight-color' target='_blank' rel="noreferrer" href={social.github}><FaGithub size={30}/></a></li>
+                        <li className='px-0'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color hover:text-highlight-color dark:hover:text-dark-highlight-color' target='_blank' rel="noreferrer" href={social.instagram}><FaInstagram size={30}/></a></li>
                     </ul>
                 </div>
             </div>

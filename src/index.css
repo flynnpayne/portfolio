@@ -14,10 +14,11 @@
     --secondary-color: #fbfbfb;
     --highlight-color: #0CCA4A;
     --text-color: #333;
-    --dark-primary-color: #002626;
-    --dark-secondary-color: #002929;
-    --dark-highlight-color: #FF331F;
-    --dark-text-color: white;
+
+    --dark-primary-color: #000000;
+    --dark-secondary-color: #6C5A49;
+    --dark-highlight-color: #fca311;
+    --dark-text-color: #ffffff;
   }
 
 html {
