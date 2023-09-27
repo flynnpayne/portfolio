@@ -10,14 +10,14 @@
 }
 
 :root {
-    --primary-color: white;
-    --secondary-color: #fbfbfb;
-    --highlight-color: #0CCA4A;
+    --primary-color: #f5f5f5;
+    --secondary-color: white;
+    --highlight-color: #2F349D;
     --text-color: #333;
 
-    --dark-primary-color: #000000;
-    --dark-secondary-color: #222222;
-    --dark-highlight-color: #fca311;
+    --dark-primary-color: #181b24;
+    --dark-secondary-color: #24272D;
+    --dark-highlight-color: #F3C969;
     --dark-text-color: #ffffff;
   }
 
@@ -37,4 +37,8 @@ h1, h2 {
 
 p {
     font-family: 'Poppins', sans-serif;
+}
+
+#active-modal {
+    touch-action: none;
 }

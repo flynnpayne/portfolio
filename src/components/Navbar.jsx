@@ -8,9 +8,9 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     if(nav) {
-        document.body.classList.add('active-modal')
+        document.body.setAttribute("id", "active-modal");
     } else {
-        document.body.classList.remove('active-modal')
+        document.body.removeAttribute("id", "active-modal");
     }
 
     return (
@@ -21,25 +21,25 @@ const Navbar = () => {
 
         {/* Menu */}
         <ul className='hidden md:flex'>
-            <Link to="home" smooth={true} duration={500}><li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Home</li></Link>
-            <Link to="about" smooth={true} duration={500}><li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>About</li></Link>
-            <Link to="skills" smooth={true} duration={500}><li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Skills</li></Link>
-            <Link to="projects" smooth={true} duration={500}><li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Projects</li></Link>
-            <Link to="contact" smooth={true} duration={500}><li className='py-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Contact</li></Link>
+            <Link to="home" smooth={true} duration={500}><li className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Home</li></Link>
+            <Link offset={-150} to="about" smooth={true} duration={500}><li className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>About</li></Link>
+            <Link offset={-150} to="skills" smooth={true} duration={500}><li className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Skills</li></Link>
+            <Link offset={-150} to="projects" smooth={true} duration={500}><li className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Projects</li></Link>
+            <Link offset={-150} to="contact" smooth={true} duration={500}><li className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Contact</li></Link>
         </ul>
 
         {/* Hamburger */}
-        <div onClick={handleClick} className='md:hidden z-10'>
+        <div onClick={handleClick} className='w-8 md:hidden z-10'>
             {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
         {/* Mobile Menu */}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-primary-color dark:bg-dark-primary-color flex flex-col justify-center items-center'}>
+        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-primary-color dark:bg-dark-primary-color flex flex-col pt-16 items-center'}>
             <li className='py-6 text-4xl'><Link onClick={handleClick} to="home" smooth={true} duration={500}>Home</Link></li>
-            <li className='py-6 text-4xl'><Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link></li>
-            <li className='py-6 text-4xl'><Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link></li>
-            <li className='py-6 text-4xl'><Link onClick={handleClick} to="projects" smooth={true} duration={500}>Projects</Link></li>
-            <li className='py-6 text-4xl'><Link onClick={handleClick} to="contact" smooth={true} duration={500}>Contact</Link></li>
+            <li className='py-6 text-4xl'><Link onClick={handleClick} offset={-120} to="about" smooth={true} duration={500}>About</Link></li>
+            <li className='py-6 text-4xl'><Link onClick={handleClick} offset={-120} to="skills" smooth={true} duration={500}>Skills</Link></li>
+            <li className='py-6 text-4xl'><Link onClick={handleClick} offset={-120} to="projects" smooth={true} duration={500}>Projects</Link></li>
+            <li className='py-6 text-4xl'><Link onClick={handleClick} offset={-120} to="contact" smooth={true} duration={500}>Contact</Link></li>
         </ul>
     </div>
     )
