@@ -12,22 +12,19 @@
     },
 
     "about": {
-        "title": "About",
-        "tagline": "All about me"
+        "title": "About me",
+        "paragraph": "Hello, I'm Flynn Payne, a website developer who specializes in front-end development, design, and UX principles. I recently graduated with a Diploma in Website Development and Design from Ara Institute of Canterbury, where my dedication earned me an Academic Excellence Award. My goal is simple: to continuously expand my knowledge by learning new languages and frameworks, as well as refining my existing skills. I'm eager to take on fresh projects and deliver outstanding web solutions."
     },
 
     "skills": {
-        "title": "Skills",
-        "tagline": "Skills I have picked up"
+        "title": "Skills"
     },
 
     "projects": {
-        "title": "Projects",
-        "tagline": "Some recent projects I have done"
+        "title": "Projects"
     },
 
     "contact": {
-        "title": "Contact",
-        "tagline": "Lets get in touch"
+        "title": "Contact"
     }
 }

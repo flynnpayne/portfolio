@@ -9,6 +9,9 @@ const Projects = () => {
                 <div className='mb-4'>
                     <h1 className='text-4xl inline font-bold border-b-4 border-highlight-color dark:border-dark-highlight-color'>{projects.title}</h1>
                 </div>
+                <div>
+                    
+                </div>
             </div>
         </div>
     )
