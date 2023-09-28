@@ -16,7 +16,7 @@ const Skills = () => {
                     <h1 className='text-4xl inline font-bold border-b-4 border-highlight-color dark:border-dark-highlight-color'>{skills.title}</h1>
                 </div>
 
-                <div className='w-full flex flex-wrap text-center py-8'>
+                <div className='w-full flex flex-wrap text-center pb-8'>
                     <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 mr-4 sm:w-[15rem]'>
                         <img className='w-20 mx-auto mt-4' src={HTML} alt="HTML icon" />
                         <p className='my-4'>HTML</p>
