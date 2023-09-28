@@ -10,7 +10,7 @@ const About = () => {
                     <h1 className='text-4xl inline font-bold border-b-4 border-highlight-color dark:border-dark-highlight-color'>{about.title}</h1>
                 </div>
                 <div className='w-full'>
-                    <p className='max-w-[40rem] text-xl'>{about.paragraph}</p>
+                    <p className='max-w-[50rem] text-xl'>{about.paragraph}</p>
                 </div>
             </div>
         </div>
