@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div name='home' className='w-full h-screen bg-primary-color text-text-color dark:bg-dark-primary-color dark:text-dark-text-color'>
             <div className='max-w-[1000px] mx-auto px-4 sm:px-8 flex flex-col justify-center h-full'>
-                <h1 className='text-4xl mb-4 sm:text-7xl font-bold'>{home.title}</h1>
+                <h1 className='text-4xl w-max mb-4 sm:text-7xl font-bold border-b-4 border-highlight-color dark:border-dark-highlight-color'>{home.title}</h1>
                 <h2 className='text-2xl sm:text-3xl font-bold'>{home.tagline}</h2>
                 <ul className='my-4 flex flex-row'>
                     <li className='px-0'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color hover:text-highlight-color dark:hover:text-dark-highlight-color' target='_blank' rel="noreferrer" href={social.linkedin}><FaLinkedin size={30}/></a></li>

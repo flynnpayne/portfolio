@@ -14,17 +14,13 @@ const Contact = () => {
 
         emailjs.sendForm('service_x88zcsa', 'template_f9r9n4k', form.current, 'fDwVJAOBsSv8NObPM')
         .then((result) => {
-            alert('message sent successfully...');
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
         });
-
-
     };
 
     return (
-        
         <div name='contact' className='w-full mb-32 bg-primary-color text-text-color dark:bg-dark-primary-color dark:text-dark-text-color'>
             <div className='max-w-[1000px] mx-auto px-4 sm:px-8 flex flex-col justify-center h-full'>
                 <div className='mb-4'>
@@ -39,15 +35,15 @@ const Contact = () => {
                             <div className='sm:flex flex-row justify-between'>
                                 <div className='flex flex-col sm:w-[35%]'>
                                     <label htmlFor="user_name">First Name:</label>
-                                    <input type="text" name="user_name" id="user_name" className='p-2 bg-secondary-color dark:bg-dark-secondary-color rounded-md' />
+                                    <input type="text" name="user_name" id="user_name" className='p-2 bg-secondary-color dark:bg-dark-secondary-color rounded-md' required/>
                                 </div>
                                 <div className='mt-2 flex flex-col sm:w-[60%] sm:mt-0'>
                                     <label htmlFor="user_email">Email:</label>
-                                    <input type="email" name="user_email" id="user_email" className='p-2 bg-secondary-color dark:bg-dark-secondary-color rounded-md' />
+                                    <input type="email" name="user_email" id="user_email" className='p-2 bg-secondary-color dark:bg-dark-secondary-color rounded-md' required/>
                                 </div>
                             </div>
                             <label htmlFor="message" className='mt-2'>Message:</label>
-                            <textarea name="message" id="message" cols="10" rows="5" className='mb-5 w-full p-2 bg-secondary-color dark:bg-dark-secondary-color rounded-md'></textarea>
+                            <textarea name="message" id="message" cols="10" rows="5" className='mb-5 w-full p-2 bg-secondary-color dark:bg-dark-secondary-color rounded-md' required></textarea>
                             <div className='w-full flex flex-col items-center'>
                                 <label htmlFor="submit"></label>
                                 <button type="submit" className='w-max border-2 rounded-md px-6 py-3 my-5 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Submit</button>

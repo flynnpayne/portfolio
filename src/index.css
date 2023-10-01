@@ -43,3 +43,7 @@ p {
 #active-modal {
     touch-action: none;
 }
+
+.hidden {
+    display: hidden;
+}

@@ -17,27 +17,27 @@ const Skills = () => {
                 </div>
 
                 <div className='w-full flex flex-wrap text-center pb-8'>
-                    <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 mr-4 sm:w-[15rem]'>
+                    <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 sm:mr-4 sm:w-[15rem]'>
                         <img className='w-20 mx-auto mt-4' src={HTML} alt="HTML icon" />
                         <p className='my-4'>HTML</p>
                     </div>
-                    <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 mr-4 sm:w-[15rem]'>
+                    <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 sm:mr-4 sm:w-[15rem]'>
                         <img className='w-20 mx-auto mt-4' src={CSS} alt="CSS icon" />
                         <p className='my-4'>CSS</p>
                     </div>
-                    <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 mr-4 sm:w-[15rem]'>
+                    <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 sm:mr-4 sm:w-[15rem]'>
                         <img className='w-20 mx-auto mt-4' src={JavaScript} alt="Javascript icon" />
                         <p className='my-4'>JAVASCRIPT</p>
                     </div>
-                    <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 mr-4 sm:w-[15rem]'>
+                    <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 sm:mr-4 sm:w-[15rem]'>
                         <img className='w-20 mx-auto mt-4' src={Python} alt="Python icon" />
                         <p className='my-4'>Python</p>
                     </div>
-                    <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 mr-4 sm:w-[15rem]'>
+                    <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 sm:mr-4 sm:w-[15rem]'>
                         <img className='w-20 mx-auto mt-4' src={ReactImg} alt="React icon" />
                         <p className='my-4'>REACT</p>
                     </div>
-                    <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 mr-4 sm:w-[15rem]'>
+                    <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-md shadow-lg mt-4 w-full sm:hover:scale-105 duration-500 sm:my-4 sm:mr-4 sm:w-[15rem]'>
                         <img className='w-20 mx-auto mt-4' src={Tailwind} alt="Tailwind icon" />
                         <p className='my-4'>TAILWIND</p>
                     </div>
