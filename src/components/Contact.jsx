@@ -45,7 +45,6 @@ const Contact = () => {
                             <label htmlFor="message" className='mt-2'>Message:</label>
                             <textarea name="message" id="message" cols="10" rows="5" className='mb-5 w-full p-2 bg-secondary-color dark:bg-dark-secondary-color rounded-md' required></textarea>
                             <div className='w-full flex flex-col items-center'>
-                                <label htmlFor="submit"></label>
                                 <button type="submit" name='submit' className='w-max border-2 rounded-md px-6 py-3 my-5 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Submit</button>
                             </div>
                         </form>
