@@ -21,11 +21,11 @@ const Navbar = () => {
 
         {/* Menu */}
         <ul className='hidden md:flex'>
-            <Link to="home" smooth={true} duration={500}><li className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Home</li></Link>
-            <Link offset={-150} to="about" smooth={true} duration={500}><li className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>About</li></Link>
-            <Link offset={-150} to="skills" smooth={true} duration={500}><li className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Skills</li></Link>
-            <Link offset={-150} to="projects" smooth={true} duration={500}><li className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Projects</li></Link>
-            <Link offset={-150} to="contact" smooth={true} duration={500}><li className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Contact</li></Link>
+            <Link to="home" smooth={true} duration={500}><li tabIndex={0} className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Home</li></Link>
+            <Link offset={-150} to="about" smooth={true} duration={500}><li tabIndex={0} className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>About</li></Link>
+            <Link offset={-150} to="skills" smooth={true} duration={500}><li tabIndex={0} className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Skills</li></Link>
+            <Link offset={-150} to="projects" smooth={true} duration={500}><li tabIndex={0} className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Projects</li></Link>
+            <Link offset={-150} to="contact" smooth={true} duration={500}><li tabIndex={0} className='my-2 hover:text-highlight-color dark:hover:text-dark-highlight-color'>Contact</li></Link>
         </ul>
 
         {/* Hamburger */}

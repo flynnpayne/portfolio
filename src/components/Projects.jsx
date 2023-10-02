@@ -21,8 +21,8 @@ const Projects = () => {
                         <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-b-lg'>
                             <h2 className='text-2xl py-4 text-center'>NZ Stringed Instruments</h2>
                             <div className='flex flex-row justify-between py-4 px-6'>
-                                <a href="https://nzsi.flynnp4yne.com/" target='_blank' rel="noreferrer"><button className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Demo</button></a>
-                                <a href="https://github.com/flynnpayne/nzsi" target='_blank' rel="noreferrer"><button className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>GitHub</button></a>
+                                <a href="https://nzsi.flynnp4yne.com/" target='_blank' rel="noreferrer"><button tabIndex={-1} className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Demo</button></a>
+                                <a href="https://github.com/flynnpayne/nzsi" target='_blank' rel="noreferrer"><button tabIndex={-1} className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>GitHub</button></a>
                             </div>
                         </div>
                     </div>
@@ -33,8 +33,8 @@ const Projects = () => {
                         <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-b-lg'>
                             <h2 className='text-2xl py-4 text-center'>Exmouth View Hotel</h2>
                             <div className='flex flex-row justify-between py-4 px-6'>
-                                <a href="https://exmouthview.flynnp4yne.com/" target='_blank' rel="noreferrer"><button className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Demo</button></a>
-                                <a href="https://github.com/flynnpayne/exmouthview" target='_blank' rel="noreferrer"><button className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>GitHub</button></a>
+                                <a href="https://exmouthview.flynnp4yne.com/" target='_blank' rel="noreferrer"><button tabIndex={-1} className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Demo</button></a>
+                                <a href="https://github.com/flynnpayne/exmouthview" target='_blank' rel="noreferrer"><button tabIndex={-1} className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>GitHub</button></a>
                             </div>
                         </div>
                     </div>
@@ -45,8 +45,8 @@ const Projects = () => {
                         <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-b-lg'>
                             <h2 className='text-2xl py-4 text-center'>Ye Olde Bookshoppe</h2>
                             <div className='flex flex-row justify-between py-4 px-6'>
-                                <a href="https://yeoldebookshoppe.flynnp4yne.com/" target='_blank' rel="noreferrer"><button className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Demo</button></a>
-                                <a href="https://github.com/flynnpayne/yeoldebookshoppe" target='_blank' rel="noreferrer"><button className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>GitHub</button></a>
+                                <a href="https://yeoldebookshoppe.flynnp4yne.com/" target='_blank' rel="noreferrer"><button tabIndex={-1} className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Demo</button></a>
+                                <a href="https://github.com/flynnpayne/yeoldebookshoppe" target='_blank' rel="noreferrer"><button tabIndex={-1} className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>GitHub</button></a>
                             </div>
                         </div>
                     </div>
