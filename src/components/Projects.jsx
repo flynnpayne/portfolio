@@ -16,7 +16,7 @@ const Projects = () => {
                 <div className='flex flex-col items-center sm:flex-row flex-wrap sm:justify-between'>
                     <div className='w-full mb-4 sm:w-[19rem] sm:mb-0 sm:hover:scale-105 duration-500'>
                         <figure>
-                            <img className='rounded-t-lg' src={NZSI} alt=""/>
+                            <img className='rounded-t-lg' src={NZSI} alt="Screenshot of NZ Stringed Instruments website"/>
                         </figure>
                         <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-b-lg'>
                             <h2 className='text-2xl py-4 text-center'>NZ Stringed Instruments</h2>
@@ -28,7 +28,7 @@ const Projects = () => {
                     </div>
                     <div className='w-full mb-4 sm:w-[19rem] sm:mb-0 sm:hover:scale-105 duration-500'>
                         <figure>
-                            <img className='rounded-t-lg' src={exmouth} alt=""/>
+                            <img className='rounded-t-lg' src={exmouth} alt="Screenshot of Exmouth View Hotel website"/>
                         </figure>
                         <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-b-lg'>
                             <h2 className='text-2xl py-4 text-center'>Exmouth View Hotel</h2>
@@ -40,7 +40,7 @@ const Projects = () => {
                     </div>
                     <div className='w-full mb-4 sm:w-[19rem] sm:mb-0 sm:hover:scale-105 duration-500'>
                         <figure>
-                            <img className='rounded-t-lg' src={books} alt=""/>
+                            <img className='rounded-t-lg' src={books} alt="Screenshot of Ye Olde Bookshoppe website"/>
                         </figure>
                         <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-b-lg'>
                             <h2 className='text-2xl py-4 text-center'>Ye Olde Bookshoppe</h2>

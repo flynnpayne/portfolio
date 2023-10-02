@@ -26,9 +26,9 @@ const Contact = () => {
                 <div className='mb-4'>
                     <h1 className='text-4xl inline font-bold border-b-4 border-highlight-color dark:border-dark-highlight-color'>{contact.title}</h1>
                     <ul className='my-8 flex flex-row'>
-                        <li className='px-0'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color hover:text-highlight-color dark:hover:text-dark-highlight-color' target='_blank' rel="noreferrer" href={social.linkedin}><FaLinkedin size={30}/></a></li>
-                        <li className='px-4'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color hover:text-highlight-color dark:hover:text-dark-highlight-color' target='_blank' rel="noreferrer" href={social.github}><FaGithub size={30}/></a></li>
-                        <li className='px-0'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color hover:text-highlight-color dark:hover:text-dark-highlight-color' target='_blank' rel="noreferrer" href={social.instagram}><FaInstagram size={30}/></a></li>
+                        <li className='px-0'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color hover:text-highlight-color dark:hover:text-dark-highlight-color' target='_blank' rel="noreferrer" aria-label="Linkedin" href={social.linkedin}><FaLinkedin size={30}/></a></li>
+                        <li className='px-4'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color hover:text-highlight-color dark:hover:text-dark-highlight-color' target='_blank' rel="noreferrer" aria-label="Github" href={social.github}><FaGithub size={30}/></a></li>
+                        <li className='px-0'><a className='flex justify-between items-center text-text-color dark:text-dark-text-color hover:text-highlight-color dark:hover:text-dark-highlight-color' target='_blank' rel="noreferrer" aria-label="Instagram" href={social.instagram}><FaInstagram size={30}/></a></li>
                     </ul>
                     <div className='max-w-lg'>
                         <form className='flex flex-col' ref={form} onSubmit={sendEmail}>
@@ -46,7 +46,7 @@ const Contact = () => {
                             <textarea name="message" id="message" cols="10" rows="5" className='mb-5 w-full p-2 bg-secondary-color dark:bg-dark-secondary-color rounded-md' required></textarea>
                             <div className='w-full flex flex-col items-center'>
                                 <label htmlFor="submit"></label>
-                                <button type="submit" className='w-max border-2 rounded-md px-6 py-3 my-5 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Submit</button>
+                                <button type="submit" name='submit' className='w-max border-2 rounded-md px-6 py-3 my-5 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Submit</button>
                             </div>
                         </form>
                     </div>
