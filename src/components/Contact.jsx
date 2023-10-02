@@ -1,22 +1,54 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import config from '../index.json'
 import emailjs from '@emailjs/browser';
 import {FaGithub, FaInstagram, FaLinkedin} from 'react-icons/fa'
+import {BsFillCloudArrowUpFill, BsArrowClockwise, BsFillCloudCheckFill} from 'react-icons/bs'
+import {TbCloudX} from 'react-icons/tb'
 
 const Contact = () => {
     const contact = config.contact;
     const social = config.social;
 
+    const [bef, setBef] = useState(true)
+    const [wait, setWait] = useState(false)
+    const [finish, setFinish] = useState(false)
+    const [failure, setFailure] = useState(false)
+    const buttonAnimation = () => {
+        setBef(false);
+        setWait(true);
+    }
+
+    const successfull = () => {
+        setWait(false);
+        setFinish(true);
+        setTimeout(() => {
+            setBef(true);
+            setFinish(false);
+        }, 5000);
+    }
+
+    const unsuccessfull = () => {
+        setWait(false);
+        setFailure(true);
+        setTimeout(() => {
+            setBef(true);
+            setFailure(false);
+        }, 5000);
+    }
+
     const form = useRef();
 
     const sendEmail = (e) => {
+        buttonAnimation();
         e.preventDefault();
 
         emailjs.sendForm('service_x88zcsa', 'template_f9r9n4k', form.current, 'fDwVJAOBsSv8NObPM')
         .then((result) => {
             console.log(result.text);
+            successfull();
         }, (error) => {
             console.log(error.text);
+            unsuccessfull();
         });
     };
 
@@ -45,7 +77,7 @@ const Contact = () => {
                             <label htmlFor="message" className='mt-2'>Message:</label>
                             <textarea name="message" id="message" cols="10" rows="5" className='mb-5 w-full p-2 bg-secondary-color dark:bg-dark-secondary-color rounded-md' required></textarea>
                             <div className='w-full flex flex-col items-center'>
-                                <button type="submit" name='submit' className='w-max border-2 rounded-md px-6 py-3 my-5 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Submit</button>
+                                <button type="submit" name='submit' className='w-max border-2 rounded-md px-6 py-3 my-5 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'><span className={!bef ? 'hidden' :  'mr-2'}><BsFillCloudArrowUpFill /></span><span className={!wait ? 'hidden' :  'mr-2 motion-safe:animate-spin'}><BsArrowClockwise /></span><span className={!finish ? 'hidden' :  'mr-2 text-green-500'}><BsFillCloudCheckFill /></span><span className={!failure ? 'hidden' :  'mr-2 text-red-500'}><TbCloudX /></span>Submit</button>
                             </div>
                         </form>
                     </div>
