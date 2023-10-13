@@ -1,7 +1,7 @@
 import React from 'react'
 import config from '../index.json'
 import NZSI from '../assets/nzsi.png'
-import exmouth from '../assets/exmouth.png'
+import beach from '../assets/beach.png'
 import books from '../assets/books.png'
 
 const Projects = () => {
@@ -28,13 +28,13 @@ const Projects = () => {
                     </div>
                     <div className='w-full mb-4 sm:w-[19rem] sm:mb-0 sm:hover:scale-105 duration-500'>
                         <figure>
-                            <img className='rounded-t-lg' src={exmouth} alt="Screenshot of Exmouth View Hotel website"/>
+                            <img className='rounded-t-lg' src={beach} alt="Screenshot of Beach View Hotel website"/>
                         </figure>
                         <div className='bg-secondary-color dark:bg-dark-secondary-color rounded-b-lg'>
-                            <h2 className='text-2xl py-4 text-center'>Exmouth View Hotel</h2>
+                            <h2 className='text-2xl py-4 text-center'>Beach View Hotel</h2>
                             <div className='flex flex-row justify-between py-4 px-6'>
-                                <a href="https://exmouthview.flynnp4yne.com/" target='_blank' rel="noreferrer"><button tabIndex={-1} className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Demo</button></a>
-                                <a href="https://github.com/flynnpayne/exmouthview" target='_blank' rel="noreferrer"><button tabIndex={-1} className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>GitHub</button></a>
+                                <a href="https://beachview.flynnp4yne.com/" target='_blank' rel="noreferrer"><button tabIndex={-1} className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>Demo</button></a>
+                                <a href="https://github.com/flynnpayne/beachview" target='_blank' rel="noreferrer"><button tabIndex={-1} className='border-2 rounded-md px-2 py-1 flex items-center border-text-color text-text-color hover:border-highlight-color hover:text-highlight-color dark:border-dark-text-color dark:text-dark-text-color dark:hover:border-dark-highlight-color dark:hover:text-dark-highlight-color'>GitHub</button></a>
                             </div>
                         </div>
                     </div>
